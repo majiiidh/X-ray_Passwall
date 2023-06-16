@@ -25,7 +25,6 @@ clear
 service passwall stop
 cd /root/
 
-rm owo.sh
 wget -q https://raw.githubusercontent.com/amirhosseinchoghaei/mi4agigabit/main/owo.sh
 
 chmod 777 owo.sh
@@ -41,7 +40,6 @@ chmod +x /etc/init.d/amir
 
 cd /root/
 
-rm update.sh
 wget -q https://raw.githubusercontent.com/amirhosseinchoghaei/mi4agigabit/main/update.sh
 
 chmod 777 update.sh
